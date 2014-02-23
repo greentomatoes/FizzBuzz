@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>FizzBuzz</title>
+</head>
+<body>
+    <h1>FizzBuzz</h1>
+    <script>
+		var outputString = "";
+    	for (var i = 1; i <= 100; i++) {
+    		outputString = "";
+    		if(i%3 === 0){
+    			outputString+="Fizz";
+    		}
+    		if(i%5 === 0){
+    			outputString+="Buzz";
+    		}
+    		if(outputString===""){
+    			outputString = i;
+    		}
+		console.log(outputString);
+    	};
+    </script>
+</body>
+</html>
